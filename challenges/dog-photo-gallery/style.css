@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+h1 {
+    justify-self: center;
+    align-self: center;
+}
+#addButton {
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 1rem;
+    justify-self: center;
+    align-self: center;
+    margin: 1.5rem;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+
+#addButton:hover {
+    cursor: pointer;
+    background-color: rgb(139, 248, 244);
+    color: rgb(45, 46, 46);
+}
+#deleteButton {
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 1rem;
+    justify-self: center;
+    align-self: center;
+    margin: 1.5rem;
+    padding: 1.2rem;
+    font-size: 1.2rem;
+}
+
+#deleteButton:hover {
+    cursor: pointer;
+    background-color: rgb(139, 248, 244);
+    color: rgb(45, 46, 46);
+}
+#imgList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto, minmax(200px, 1fr));
+    list-style-type: none;
+}
+
+.li {
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 8rem;
+    list-style-type: none;
+}
